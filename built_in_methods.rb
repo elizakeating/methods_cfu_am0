@@ -86,3 +86,17 @@ puts number_of_dogs.next
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+# the rotate method is called on the variable group_names, which stores an array with 4 strings
+# the rotate method shifts the first element to the back of the array
+# the p command prints out the new array resulting from the rotate method
+# the p command prints out ["Nicholas", "Noelle", "Eliza", "Tyler"]
+group_names = ["Tyler", "Nicholas", "Noelle", "Eliza"]
+p group_names.rotate
+
+# the minmax method is called on the variable money_owed, which stores an array with 4 floats
+# the minmax method returns the min and max values from the original array
+# the p command prints out the min and max of the array
+# the p command prints out [35.64, 1002.43]
+money_owed = [40.0, 578.67, 1002.43, 35.64]
+p money_owed.minmax
