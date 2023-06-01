@@ -66,6 +66,19 @@ puts color.replace("blue")
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+# the zero? method is called on the tasks_to_do variable, which stores integer 14
+# the zero? method checks if the current integer is 0, with no arguments passed through
+# the puts command prints out the result of the zero? method
+# the puts command will print out false
+tasks_to_do = 14
+puts tasks_to_do.zero?
+
+# the next method is called on the number_of_dogs, which stores integer 3
+# the next method returns the integer after the original integer, or the original integer + 1
+# the puts method prints out the integer result of the next method
+# the puts command will print out 4
+number_of_dogs = 3
+puts number_of_dogs.next
 
 
 # SECTION 4: Calling methods on variables assigned to arrays.
