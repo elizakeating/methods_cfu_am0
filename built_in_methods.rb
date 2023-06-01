@@ -44,6 +44,20 @@
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
+# the chop method is called on the animal variable, which stores string "cat"
+# the chop method cuts the last character of the string off and returns that new string. there are no arguments passed in.
+# the puts command prints the string after the method chop is used
+# the puts command will return ca 
+animal = "cat"
+puts animal.chop
+
+# the replace method is called on the color variable, which stores string "green"
+# the replace method replaces the current string of a variable with a new one, which is collected from the argument passed through
+# the puts command prints out the string after the replace method is used
+# the puts command prints out blue
+color = "green"
+puts color.replace("blue")
+
 
 
 # SECTION 3: Calling methods on variables assigned to integers.
